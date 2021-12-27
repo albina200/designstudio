@@ -148,3 +148,38 @@ footer p{
 footer img{
     margin: 0 179px;
 }
+.phone{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(168, 50, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 5vh;
+    right: 2vw;
+    color: white;
+    font-size: 30px;
+    transform: rotate(-90deg);
+    outline: 1px solid;
+    outline-color: rgb(189, 0, 0);
+    outline-offset: 10px;
+    animation: phon 2s linear infinite;
+}
+@keyframes phon{
+    0%{
+        outline-offset: 0;
+    }
+    100%{
+        outline-offset: 20px;
+        outline-color: transparent;
+    }
+}
+.phone:hover{
+    background-color: rgb(53, 184, 53);
+    transform: rotate(0deg);
+    transition: 0.4s;
+    outline-color: rgb(13, 170, 13);
+    animation: phon 0.5s linear infinite reverse;
+}
