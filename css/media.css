@@ -1,0 +1,322 @@
+@media (max-width:768px) {
+    .logo {
+        margin-top: 10px;
+    }
+
+    .header__elements {
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    h6 {
+        font-size: 12px;
+        line-height: 14px;
+        width: 67%;
+    }
+
+    .header__button {
+        gap: 20px;
+    }
+
+    .header__button a {
+        padding: 15px 31px;
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+
+
+
+    h2 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    .services__list {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+
+    .services__item {
+        width: 320px;
+        gap: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .services__item p {
+        font-size: 12px;
+        line-height: 15px;
+        width: 90%;
+    }
+
+    .services a {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+
+
+    .advantage__elements {
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .advantage__item__info h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .advantage__item__info p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+
+
+  
+    .fooder__elements {
+        width: 95%;
+    }
+}
+
+@media (max-width:425px) {
+    .logo {
+        width: 80px;
+    }
+
+    .header__elements {
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 37px;
+        line-height: 40px;
+    }
+
+    h6 {
+        font-size: 12px;
+        line-height: 15px;
+        width: 95%;
+    }
+
+    .header__button {
+        gap: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header__button a {
+        padding: 15px 25px;
+        font-size: 15px;
+        line-height: 15px;
+        width: 90%;
+        text-align: center;
+    }
+
+
+
+    h2 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    .services__list {
+        gap: 50px;
+    }
+
+
+
+    
+    .advantage__item {
+        width: 90%;
+    }
+    
+    .advantage__item span {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    
+    .advantage__item__info {
+        width: 75%;
+        gap: 13px;
+    }
+    
+    .advantage__item__info h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .advantage__item__info p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+
+
+
+
+    .fooder__elements {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:375px) {
+    .logo {
+        width: 80px;
+    }
+
+    .header__elements {
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 33px;
+        line-height: 36px;
+    }
+
+    h6 {
+        font-size: 11px;
+        line-height: 14px;
+        width: 100%;
+    }
+
+    .header__button {
+        gap: 15px;
+        width: 100%;
+    }
+
+    .header__button a {
+        padding: 15px 25px;
+        font-size: 13px;
+        line-height: 13px;
+        width: 90%;
+        text-align: center;
+    }
+
+
+
+
+    h2 {
+        font-size: 25px;
+        line-height: 48px;
+    }
+
+    .services__elements {
+        margin: 40px 0;
+    }
+
+    .services__list {
+        gap: 40px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .services a {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+
+
+
+    .advantage__item {
+        width: 100%;
+    }
+    
+    .advantage__item span {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    
+    .advantage__item__info {
+        width: 75%;
+        gap: 13px;
+    }
+    
+    .advantage__item__info h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+    .advantage__item__info p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .cats {
+        width: 300px;
+    }
+}
+
+@media (max-width:320px) {
+    .logo {
+        width: 80px;
+    }
+
+    .header__elements {
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    h6 {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .header__button {
+        gap: 15px;
+        width: 100%;
+    }
+
+    .header__button a {
+        padding: 15px 25px;
+        font-size: 11px;
+        line-height: 11px;
+        width: 96%;
+        text-align: center;
+    }
+
+
+
+    h2 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .services__list {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+
+    .services__item p {
+        width: 97%;
+    }
+}
